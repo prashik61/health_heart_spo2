@@ -1,6 +1,6 @@
 #include <Wire.h>
 #include "MAX30105.h"
-#include "custom_algorithm.h"
+#include "spo2_custom_algorithm.h"
 
 // Create an instance of the MAX30105 sensor
 MAX30105 customSensor;
