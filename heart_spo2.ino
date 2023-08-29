@@ -41,9 +41,9 @@ void customSetup()
   }
 
   // Prompt the user to attach the sensor
-  Serial.println(F("Attach sensor to finger using band. Press any key to start."));
-  while (Serial.available() == 0);
-  Serial.read();
+  Serial.println(F("Attach sensor to finger using band. (Press any key to start."));
+  while (Serial.available() == 0);// after serial start press any key or if dont want comment this line 
+  Serial.read(); // omment this line also
 
   // Sensor configuration parameters
   byte customBrightness = 60;
