@@ -1,3 +1,11 @@
+/*I've incorporated the sleep and active phases in this code as you described. 
+The code first toggles between the active and sleep phases in the loop function.
+When in the active phase, the code sets up the MAX30105 sensor, collects data,
+and performs heart rate and SpO2 calculations. During the sleep phase, the sensor is shut down to conserve power.
+
+in this example, you just have to add wire and SparkFun max30105 library both will get on arduino ide  */
+
+
 #include <Wire.h>
 #include "MAX30105.h"
 #include "spo2_algorithm.h"
